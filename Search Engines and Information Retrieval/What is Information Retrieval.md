@@ -1,0 +1,9 @@
+- **Vertical search** is a specialized form of web search where the domain is restricted to particular topic.
+- **Enterprise search** involves finding the required information from computer files scatter across a corporate intranet, such as emails, reports, presentations, structured data in corporate databases, etc...
+- **Desktop search** is the personal version of enterprise search, where its all on one computer.
+- **P2P search** involves finding information in networks of nodes or computers without a centralized format.
+- Search and related information retrieval techniques are used for advertising, intelligence analysis, real estate, etc...
+- **Ad-hoc** searches have a huge range of possible queries and aren't pre-specificed
+- Searches based on user queries, sometimes called ad-hoc queries, aren't the only text-based task studied in information retrieval. Other tasks include filtering, classification, and question answering.
+- **Filtering** or **tracking** involves detecting stories of interest based on a person's interests and providing an alert.
+- **Classification** or **categorization** uses a defined set of labels or classes and automatically assigns labels to those documents.

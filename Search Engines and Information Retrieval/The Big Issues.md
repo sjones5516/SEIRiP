@@ -1,0 +1,26 @@
+- **Relevance** is a fundamental concept in IR. Roughly, a relevant document contains the information the person was looking for when they submitted a query to the search engine.
+	- Many factors are taken into account when determining relevance.
+	- Comparing the text of a query with the text of the document often produces very poor results because language can be used to express the meaning of the same concepts in multiple different ways. This is the **vocabulary mismatch problem**.
+- A text document is **topically relevant** if its on the same topic. 
+	- A news story about a tornado in Kansas is topically relevant to "severe weather events".
+- **User relevance** takes additional features into account.
+	- The news story from before might not be user relevant if its 5 years old.
+- **Retrieval models** address the issue of relevance. They are formal representations of the process of matching a query and a document.
+	- They are the basis of a **ranking algorithm** that is used in a search engine to produce a ranked list of documents.
+	- Retrieval models typically model statistical properties of text, rather than linguistic structure. This involves the counts of words in the text, rather than what's an adjective and whats a noun.
+	- Some advanced models take into account linguistic features, but they tend to be of secondary importance.
+- **Evaluation** is another fundamental concept in IR. Quality of a document ranking depends on how well it matches a person's expectations. Evaluation are used to compare ranking algorithms.
+	- Precision and recall are still popular methods of evaluation.
+- **Precision** is the proportion of retrieved documents that are relevant.
+	- $$ Precision = \mathrm{\frac{TP}{TP+FP}}$$
+- **Recall** is the proportion of relevant documents that are retrieved.
+	- $$ \mathrm{Recall=\frac{TP}{TP+FN}}
+$$
+	- When recall is used as a measure of evaluation, there's the assumption that all relevant documents for a query are known. For small test collections of documents, this measure is useful.
+- A **test collection** for IR experiments consist of a collection of text documents, typical queries, and a list of relevant for each query documents for each query.
+	- The best-known test collections are from the TREC evaluation forum.
+- **Clickthrough data** records the documents that were clicked on during a search session.
+- Clickthrough and other log data is strongly correlated with relevance so it can be sued to evaluate search.
+- Search engine companies still use relevance judgement in addition to log data to ensure the validity of results.
+- **Information needs** is the third fundamental concept in IR. They are the underlying cause of queries.
+- Text queries are often poor descriptions of what the user actually wants. Techniques such as query suggestion, query expansion, and relevance feedback use interaction and context to refine the initial query in order to produce better ranked lists.
