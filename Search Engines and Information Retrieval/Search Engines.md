@@ -1,0 +1,20 @@
+- Search engines have been around for many years
+	- MEDLINE is an online medical literature search system started in the 1970s.
+- Search engines originally referred to specialized hardware for text search. From the mid 1980s onward, it came to mean information retrieval system as the name for the software system that compares queries to documents and produces a ranked list of documents.
+- Web search engines must be able to crawl many terabytes of data and provide sub-second response times to millions of queries submitted every day from all around the world.
+- Enterprise search engines must be able to process the large variety of information sources in a company and use company-specific knowledge as part of search and related tasks.
+- Desktop search engines must be able to rapidly incorporate new documents, web pages, and email as the person creates or looks at them.
+- **Data Mining** refers to the automatic discovery of interesting structure in data and includes techniques such as clustering.
+- The [[The Big Issues]] of design are effective ranking algorithms, evaluation, and user interaction. However, there are additional critical features.
+	- Performance is foremost
+	- Measured in response time, query throughput, and indexing speed.
+- **Response time** is the delay between submitting a query and receiving the resulting list.
+- **Throughput** measures the number of queries that can be processed in a given time.
+- **Indexing speed** is the rate at which text documents can be transferred into indexes.
+- An **index** is a data structure that improves the speed of the search.
+- Another performance measure is how fast data can be incorporated into the indexes.
+- **Coverage** refers to how much existing information has been indexed.
+- **Recency** or **Freshness** measures the "age" of stored information.
+- **Scalability** is an important issue.
+- **Spam** is a misleading, inappropriate, or non-relevant information in a document designed for some commercial benefit.
+	- Indexing spam might degrade the quality of a search-engine's ranking.
