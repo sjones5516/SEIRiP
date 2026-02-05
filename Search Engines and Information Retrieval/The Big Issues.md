@@ -24,3 +24,4 @@ $$
 - Search engine companies still use relevance judgement in addition to log data to ensure the validity of results.
 - **Information needs** is the third fundamental concept in IR. They are the underlying cause of queries.
 - Text queries are often poor descriptions of what the user actually wants. Techniques such as query suggestion, query expansion, and relevance feedback use interaction and context to refine the initial query in order to produce better ranked lists.
+- Techniques such as query suggestion, query expansion, and relevance feedback use interaction and context to refine the initial query in order to produce better ranked lists.
